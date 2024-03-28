@@ -21,6 +21,7 @@ A challenge in measuring real-world speed from video is perspective distortion. 
 
 ## Challenges & Solutions
 - **Perspective Distortion**: Solved using OpenCV's `getPerspectiveTransform` function to create a transformation matrix, enabling accurate distance measurements.
+- ![Demo Video](speed-estimation-perspective.png)
 - **Speed Calculation**: To mitigate detection flickering effects and improve accuracy, speed calculations are averaged over one-second intervals, providing stable and realistic speed estimations.
 
 ## Technical Highlights
